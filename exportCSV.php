@@ -38,3 +38,4 @@ if (!$mysqli_result = mysqli_query($mysqli, "SELECT * FROM {$exp_table}"))
 fclose($file);
 
 echo "<p><a href=\"$csv\">Download</a></p>\n"; 
+?>
